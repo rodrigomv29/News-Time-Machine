@@ -1,0 +1,11 @@
+Include/
+bin/
+Scripts/
+
+# Development files (e.g., compiled Python files)
+*.pyc
+*.pyo
+__pycache__/
+
+# Other generated files
+pip-selfcheck.json

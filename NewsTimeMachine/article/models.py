@@ -5,8 +5,13 @@ from pydantic import BaseModel
 
 class Article(BaseModel):
     title: str
+    author_name: str
     description: str
     publisher: str
-    publish_date: str
+    pub_date: str
     url: str
+
+
+    def __str__(self) -> str:
+        return f"{self.publisher}: {self.title}"
 
