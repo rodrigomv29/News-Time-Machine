@@ -1,6 +1,7 @@
 Include/
 bin/
 Scripts/
+Lib/
 
 # Development files (e.g., compiled Python files)
 *.pyc
